@@ -7,7 +7,7 @@ import { Contact } from '../models/contact';
   providedIn: 'root'
 })
 export class ContactService {
-  private apiUrl = 'https://backend.onrender.com/api/contacts';
+  private apiUrl = 'https://api-contacts-app-backend.onrender.com/api/contacts';
 
   constructor(private http: HttpClient) {
     console.log('ContactService initialized http client some whats'); // Лог для проверки
